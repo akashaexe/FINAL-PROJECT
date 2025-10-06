@@ -82,6 +82,10 @@ a {
     margin: 0 24px;
 }
 
+.nav__link:hover:after {
+    opacity: 1;
+}
+
 .nav__link:after {
     content: "";
     position: absolute;
